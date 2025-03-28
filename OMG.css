@@ -1,0 +1,466 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding: var(--scroll-padding, 5rem)
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.top-bar {
+    background-image: linear-gradient(90deg, #DAB77D 0%, #DBCA98 100%);
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    
+}
+.top-bar a {
+    color: black;
+    text-decoration: none;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 15px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+}
+.auth-buttons a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+.login {
+    color: white;
+}
+.register {
+    background-color: #d4b27d;
+    color: black;
+    margin-right: 130px;
+}
+.logo{
+    width: 180px;
+    margin: -10px -17px -17px -17px;
+    padding-left: 90px;
+}
+
+
+
+
+.p1{
+    background-color:#f7f7f7;
+    display: flex;
+    justify-content: center;
+}
+.section-one{
+    padding-bottom: 260px;
+    display: flex;
+    flex-direction: column;
+}
+.section-Two{
+    display: flex;
+    float: right;
+
+}
+.me{
+    width: 550px;
+    height: 550px;    
+    margin: 150px 220px 0px 0px;
+    transform:none;
+}
+.Text-one{
+    margin: 200px 150px 0px 160px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 54px;
+    padding-right: 0px;
+    max-width: 650px;
+
+}
+i{
+    color: #d4b27d;
+}
+.learn{
+    color: #000000;
+    font-size: 20px;
+    font-family: "Poetsen One", sans-serif;
+    margin-left: 160px;
+}
+.btn{
+    background-color: transparent;
+    color: #000000;
+    padding: 14px 30px 14px 30px;
+    background-image: linear-gradient(90deg, #DAB77D 0%, #DBCA98 100%);
+    border-style: none;
+    margin-left: 160px;
+    margin-right: 630px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+
+
+
+
+.p15{
+    background-color: #E0E0E0;
+    display: flex;
+    justify-content: center;
+}
+
+.image2{
+    width: 300px;
+    height: 300px;    
+    margin: 130px 0px 130px 0px;
+}
+
+.section-three{
+    display: flex;
+    flex-direction: column;
+}
+.section-four{
+    display: flex;
+    float: right;
+    
+}
+.who{
+    margin: 130px 0px 15px 130px;
+    max-width: 900px;
+    font-family:Playfair;
+    font-size: 60px;
+}
+.who2{
+    font-family:poppins;
+    margin: 0px 0px 0px 130px;
+    max-width: 700px;
+    font-size: 26px;
+    line-height: 1.2
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+
+
+
+
+
+.p2{
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    justify-content: center;
+}
+.Nos-services{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 38px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+}
+.A1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color:  rgb(255, 255, 255); 
+    border-style:solid;
+    border-width: 5px;
+    border-radius: 30px;
+    margin: 30px 30px 30px 0px;
+    transition: 0.3s ease-out;
+    content: 30px;
+}
+.A1:hover{
+    border-color: #DAB77D;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+}
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poetsen+One&display=swap');
+.TEXT1 {
+    text-align: center;
+    color: #DAB77D;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 40;
+    font-style: normal;
+}
+.image{
+    border-radius: 25px ;
+}
+div p{
+    display: flex;
+    text-align:left;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.acc{
+    color: #DAB77D;
+}
+.story{
+    background-color: #1A1A1A;
+    padding: 10px 0px 200px 10px;
+}
+
+
+
+
+.p3{
+    display: flex;
+    justify-content: center;
+    background-color: #cecece;
+}
+.section-eight{
+    display: flex;
+    flex-direction: column;
+}
+.section-nine{
+    display: flex;
+    flex-direction: column;
+    margin-left: 310px;
+}
+.box-info{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 100px 300px;
+    float: left;
+}
+.box-info1{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px 0px 40px;
+    float: left;
+}
+.box-info2{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px 0px 280px;
+    float: right;
+    
+}
+.box-info3{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px 0px 50px;
+    float: left;
+}
+.text01{
+    display: flex;
+    font-size: 16px;
+    float: left;
+    margin-right: 600px;
+    max-width: 180px;
+    font-family: poppins;
+}
+.text02{
+    display: flex;
+    font-size: 13px;
+    float: left;
+    margin-right: 600px;
+    max-width: 180px;
+    font-family: poppins;
+}
+.line{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 30px;
+    position: absolute;
+    width: 35px;
+    
+}
+.p35{
+    display: flex;
+    justify-content: center;
+    background-color: #cecece;
+}
+
+
+
+
+
+.p4{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.section-five{
+    display: flex;
+    float: left;
+}
+.section-six{
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+}
+.section-seven{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: -400px;
+}
+.image3{
+    display: flex;
+    width: 100px;
+    height: 100px;    
+    margin: 70px 0px 130px 0px;
+    margin-left: -500px;
+    
+}
+.user{
+    display: flex;
+    padding: 40px 0px 2px 0px;
+}
+.links{
+    display: flex;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 5px;
+    color: #d4b27d;
+    font-family: Manrope;
+
+}
+.links:hover{
+    color: #af8e59;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+.p6{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.columns{
+    display: flex;
+    flex-direction: column;
+}
+.section-ten{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+.section-eleven{
+    display: flex;
+    flex-direction: column;
+    
+}
+.box-contact{
+    border:solid;
+    border-radius: 8px;
+    background-color: #d4b27d;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:25px auto; }
+
+.feedback-input {
+  color:#1A1A1A;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #d4b27d;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #1A1A1A; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#d4b27d;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#d4b27d; }
+
+
+
+
+
+
+
+
+
+.p5{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #ffffff;
+    padding: 10px 0px 20px 0px;
+}
+
+.footTEXT1{
+    display: flex;
+    float: left;
+    margin-left: -200px;
+    font-size: 18px;
+    color: #d4b27d;
+}
+.footers{
+    display: flex;
+    flex-direction: row;
+    font-size:28px;
+    margin-left: 800px;
+}
+.fa{
+    padding: 12px 5px 0px 5px;
+    color: #d4b27d;
+}
+.fa:hover{
+    color:#af8e59;
+}
