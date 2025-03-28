@@ -1,4 +1,4 @@
-const navigation = document.querySelector(".primary-navigation");
+const navigation = document.querySelector(".navbar");
 
 const navigationHeight = navigation.offsetHeight;
 
