@@ -81,11 +81,12 @@ body {
     padding-bottom: 260px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .section-Two{
     display: flex;
     float: right;
-
+    justify-content: center;
 }
 .me{
     width: 550px;
@@ -131,35 +132,48 @@ i{
     background-color: #E0E0E0;
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
 }
-
+.p155{
+    display: flex;
+    justify-content: center;
+    background-color: #E0E0E0;
+}
 .image2{
     width: 300px;
     height: 300px;    
-    margin: 130px 0px 130px 0px;
+    margin: 0px 0px 130px 0px;
 }
 
 .section-three{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .section-four{
     display: flex;
     float: right;
-    
+    justify-content: center;
 }
 .who{
-    margin: 130px 0px 15px 130px;
+    margin: 0px 0px 15px 130px;
     max-width: 900px;
     font-family:Playfair;
     font-size: 60px;
 }
 .who2{
     font-family:poppins;
-    margin: 0px 0px 0px 130px;
+    margin: 0px 0px 130px 130px;
     max-width: 700px;
     font-size: 26px;
     line-height: 1.2
+}
+
+.About{
+    display: flex;
+    justify-content: center;
+    font-size: 40px; 
+    font-family: poppins;
 }
 @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
